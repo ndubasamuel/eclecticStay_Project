@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.EcleStay" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+<!--        <item name="colorPrimary">@color/black</item>-->
+<!--        <item name="colorOnPrimary">@color/black</item>-->
+
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        ç
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="RoundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+
+    <style name="Theme.CustomSplashScreenTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar" tools:ignore="ResourceCycle">
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorSecondary">@color/black</item>
+<!--        <item name="colorPrimary">@color/purple_500</item>-->
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="background">@color/white</item>
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/white</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:ignore="NewApi">@drawable/palm</item>
+        <item name="android:windowSplashScreenAnimationDuration" tools:targetApi="s">300</item>
+
+    </style>
+</resources>

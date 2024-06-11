@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@id/wlcmFragment">
+
+    <fragment android:id="@+id/loginFragment" android:name="example.eclestay.view.LoginFragment"
+              android:label="fragment_login" tools:layout="@layout/fragment_login">
+        <action android:id="@+id/action_loginFragment_to_signUpFragment" app:destination="@id/signUpFragment"/>
+        <action
+                android:id="@+id/action_loginFragment_to_forgot_Password"
+                app:destination="@id/forgot_Password" />
+        <action
+                android:id="@+id/action_loginFragment_to_homeActivity"
+                app:destination="@id/homeActivity" />
+    </fragment>
+    <fragment android:id="@+id/signUpFragment" android:name="example.eclestay.view.SignUpFragment"
+              android:label="fragment_sign_up" tools:layout="@layout/fragment_sign_up">
+        <action
+                android:id="@+id/action_signUpFragment_to_homeActivity"
+                app:destination="@id/homeActivity" />
+    </fragment>
+    <fragment android:id="@+id/wlcmFragment" android:name="example.eclestay.view.WlcmFragment"
+              android:label="fragment_wlcm" tools:layout="@layout/fragment_wlcm">
+        <action android:id="@+id/action_wlcmFragment_to_loginFragment" app:destination="@id/loginFragment"/>
+        <action android:id="@+id/action_wlcmFragment_to_signUpFragment" app:destination="@id/signUpFragment"/>
+    </fragment>
+    <fragment
+            android:id="@+id/forgot_Password"
+            android:name="example.eclestay.view.Forgot_Password"
+            android:label="fragment_forgot__password"
+            tools:layout="@layout/fragment_forgot__password" >
+        <action
+                android:id="@+id/action_forgot_Password_to_loginFragment"
+                app:destination="@id/loginFragment" />
+        <action
+                android:id="@+id/action_forgot_Password_to_forgotPassword_UsePhoneFragment"
+                app:destination="@id/forgotPassword_UsePhoneFragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/forgotPassword_UsePhoneFragment"
+            android:name="example.eclestay.view.Home.ForgotPassword_UsePhoneFragment"
+            android:label="fragment_forgot_password__use_phone"
+            tools:layout="@layout/fragment_forgot_password__use_phone" >
+        <action
+                android:id="@+id/action_forgotPassword_UsePhoneFragment_to_forgot_Password"
+                app:destination="@id/forgot_Password" />
+    </fragment>
+    <activity
+            android:id="@+id/homeActivity"
+            android:name="example.eclestay.view.Home.HomeActivity"
+            android:label="activity_home"
+            tools:layout="@layout/activity_home" />
+</navigation>

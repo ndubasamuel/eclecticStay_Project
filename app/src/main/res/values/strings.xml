@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ecleStay</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_up_with_google">Sign up with Google</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="second_name">Second Name</string>
+    <string name="first_name">First Name</string>
+    <string name="create_account">Create Account</string>
+    <string name="login_email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="new_user">New User</string>
+    <string name="create_account_click">Create Account</string>
+    <string name="Log_in">Login</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="login_welcome">Login</string>
+    <string name="register_welcome">Register</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="lets_enjoy_this_beautiful_world">LETS ENJOY THIS BEAUTIFUL WORLD</string>
+    <string name="don_t_worry_happens_to_the_best_of_us">Don\'t Worry it Happens To The Best of Us</string>
+    <string name="enter_your_phone_number">Enter your Phone Number</string>
+    <string name="try_using_email">Try Using Email</string>
+    <string name="send">SEND</string>
+    <string name="use_phonenumber_instead">Use PhoneNumber Instead</string>
+    <string name="enter_your_email_address">Enter your Email Address</string>
+</resources>
